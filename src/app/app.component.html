@@ -1,0 +1,18 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+  <br>
+  {{tempjudul}}
+  <br>
+  <input type="text" [(ngModel)]="tempjudul" />
+  <br>
+  <input type="text" [(ngModel)]="tempisi" />
+  <br>
+  <input type="text" [(ngModel)]="temptanggal" />
+  <br>
+  <button (click)="OPENHALPERTAMA()" >Halaman Pertama</button>
+  <button (click)="OPENHALLOGIN()" >Halaman Kedua</button>
+  <button (click)="OPENHALTIGA()" >Halaman Ketiga</button>
+
+  <router-outlet></router-outlet>
+</p>
